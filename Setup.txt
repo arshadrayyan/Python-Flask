@@ -1,0 +1,28 @@
+# Create the Directory To Store the Source
+F:\Arshad WorkSpace\Python\Flask\mkdir Hello World
+
+# Navigate to your project directory in the command prompt:
+F:\Arshad WorkSpace\Python\Flask\cd Hello World
+
+# Install Virtual Environment Using Python
+python -m venv venv
+
+# Activate the virtual environment On Windows:
+.\venv\Scripts\activate
+
+# The command prompt should change to indicate that the virtual environment is active.
+(venv) F:\Arshad WorkSpace\Python\Flask\Hello World>
+
+# Install Flask in the virtual environment:
+pip install Flask
+
+Now, you should have a virtual environment set up with Flask installed.
+
+#Install the exe Builder Tool for Python
+pip install pyinstaller
+
+#Include the Templates and Static Files in the Executable:
+pyinstaller --name=app -F --add-data "templates;templates" --add-data "static;static" app.py
+
+# Run the Flask Application as an Executable
+pyinstaller --name=app -F app.py
