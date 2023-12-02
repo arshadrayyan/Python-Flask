@@ -27,6 +27,9 @@ pyinstaller --name=app -F --add-data "templates;templates" --add-data "static;st
 # Run the Flask Application as an Executable
 pyinstaller --name=app -F app.py
 
+# For Git Operation Need to Clone the Repository Using
+gh repo clone arshadrayyan/Python-Flask
+
 # Stage changes
 git add .
 
