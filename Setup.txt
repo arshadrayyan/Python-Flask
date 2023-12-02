@@ -28,7 +28,7 @@ pyinstaller --name=app -F --add-data "templates;templates" --add-data "static;st
 pyinstaller --name=app -F app.py
 
 # For Git Operation Need to Clone the Repository Using
-gh repo clone arshadrayyan/Python-Flask
+git clone https://github.com/arshadrayyan/Python-Flask.git
 
 # Stage changes
 git add .

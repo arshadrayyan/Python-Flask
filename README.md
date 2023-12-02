@@ -6,6 +6,15 @@ The Tutorial is designed For Basic Flask Applications With Learning Steps.
 
 Hello World is the basic application in flask to Print the Hello World on the Screen.
 
-To Run the Application navigate to the cd Hello World/App
+To View Outcome 
 
-.\app.py to Execute the Python File.
+Activate the Environment on Windows
+.\venv\Scripts\activate
+
+Install the Flask FrameWork
+pip install flask
+
+Execution Process
+Navigate to the cd Hello World/App
+
+.\app.py on the Terminal.
