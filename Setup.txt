@@ -26,3 +26,12 @@ pyinstaller --name=app -F --add-data "templates;templates" --add-data "static;st
 
 # Run the Flask Application as an Executable
 pyinstaller --name=app -F app.py
+
+# Stage changes
+git add .
+
+# Commit changes
+git commit -m "Your commit message here"
+
+# Push changes
+git push origin main
