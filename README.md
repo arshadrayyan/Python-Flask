@@ -10,7 +10,7 @@
 # Introduction
 The Tutorial Describes the Basics of the Flask Framework in Python.It designed For Basic Flask Applications For Learning.
 
-# HelloWorld
+# Hello World
 
 Hello World is the basic application in flask to Print the Hello World on the Screen.
 
