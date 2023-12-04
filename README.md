@@ -1,7 +1,5 @@
 # Introduction
 
-
-
 ## Table of Contents
 
 - [Introduction](#Introduction)
