@@ -70,7 +70,7 @@ To Request the Page Using GET Method in Python Flask.
 For Outcome follow the Steps mentioned Above, After the Below Directory.
 
 Navigate the Project Directory
-cd HTTP Methods
+cd HTTP Methods\GET
 
 Create the Virtual Environment inside it.
 python -m venv venv
