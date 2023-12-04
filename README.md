@@ -64,3 +64,22 @@ PUT: A PUT request is used to modify the data on the server. It replaces the ent
 PATCH: PATCH is similar to a PUT request, but the only difference is, it modifies a part of the data. It will only replace the content that you want to update.
 DELETE: A DELETE request is used to delete the data on the server at a specified location.
 
+
+To Request the Page Using GET Method in Python Flask.
+
+For Outcome follow the Steps mentioned Above, After the Below Directory.
+
+Navigate the Project Directory
+cd HTTP Methods
+
+Create the Virtual Environment inside it.
+python -m venv venv
+
+navigate to the Environment Directory using
+.\venv\Scripts\activate
+
+Install the Flask FrameWork
+pip install flask
+
+To Run the Application Using
+.\app\app.py
