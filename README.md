@@ -15,6 +15,8 @@
 - [String](#String)
 - [Integer](#Integer)
 - [Float](#Float)
+- [URL-Redirection-in-Flask](#URL-Redirection-in-Flask)
+- [Simple-Redirect](#Simple-Redirect)
 
 
 # Introduction
@@ -181,3 +183,12 @@ Enter the Navigation integer/yourage to see the magic route.
 The Float Variable Represents the Type of the URL Should be on Decimal Points
 
 Enter the Navigation string/yourvalletbalance in float to see the magic route.
+
+
+# URL-Redirection-in-Flask
+
+Redirect the Home Page By URL in Flask.
+
+# Simple-Redirect
+
+Redirect the (/) Route to the (/helloworld) from the Home Page in Flask.
