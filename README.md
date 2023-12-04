@@ -11,6 +11,11 @@
 - [POST](#POST)
 - [PUT](#PUT)
 - [DELETE](#DELETE)
+- [Variable-Rule](#Variable-Rule)
+- [String](#String)
+- [Integer](#Integer)
+- [Float](#Float)
+
 
 # Introduction
 The Tutorial Describes the Basics of the Flask Framework in Python. It designed Basic Flask Applications For Learning.
@@ -154,3 +159,25 @@ pip install flask
 
 To Run the Application Using
 .\app\app.py
+
+# Variable-Rule
+
+The Variable-Rule Defines the DataType Specified by the Dynamic URL's on the Flask Framework.
+
+# String
+
+The String Variable Represents the Type of the URL Should be on Letters normally
+
+Enter the Navigation string/yourname to see the magic route.
+
+# Integer
+
+The Integer Variable Represents the Type of the URL Should be on Numbers only.
+
+Enter the Navigation integer/yourage to see the magic route.
+
+# Float
+
+The Float Variable Represents the Type of the URL Should be on Decimal Points
+
+Enter the Navigation string/yourvalletbalance in float to see the magic route.
