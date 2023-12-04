@@ -3,6 +3,7 @@ import os
 
 app = Flask(__name__, template_folder=os.path.abspath(os.path.join(os.path.dirname(__file__), 'templates')))
 
+# Route With Navigation using /square
 @app.route('/square', methods=['GET'])
 def squarenumber():
     if request.method == 'GET':
@@ -15,6 +16,7 @@ def squarenumber():
             sq = int(number) * int(number)
             return render_template('answer.html', squareofnum=sq, num=number)
 
+# Default Route
 @app.route('/')
 def index():
   return render_template('index.html')
