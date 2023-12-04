@@ -17,6 +17,7 @@
 - [Float](#Float)
 - [URL-Redirection-in-Flask](#URL-Redirection-in-Flask)
 - [Simple-Redirect](#Simple-Redirect)
+- [url-for()FunctioninFlask](#url-for()FunctioninFlask)
 
 
 # Introduction
@@ -192,3 +193,7 @@ Redirect the Home Page By URL in Flask.
 # Simple-Redirect
 
 Redirect the (/) Route to the (/helloworld) from the Home Page in Flask.
+
+# url-for()FunctioninFlask
+
+Redirect the (/) Route to the (/admin) Or (/user/username) to view the Result or else click the Link from Home Page.
