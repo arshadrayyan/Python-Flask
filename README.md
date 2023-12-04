@@ -18,6 +18,9 @@
 - [URL-Redirection-in-Flask](#URL-Redirection-in-Flask)
 - [Simple-Redirect](#Simple-Redirect)
 - [url-for()FunctioninFlask](#url-for()FunctioninFlask)
+- [RedirectAndErrors](#RedirectAndErrors)
+- [ErrorWithAdmin](#ErrorWithAdmin)
+- [BadRequestError](#BadRequestError)
 
 
 # Introduction
@@ -197,3 +200,16 @@ Redirect the (/) Route to the (/helloworld) from the Home Page in Flask.
 # url-for()FunctioninFlask
 
 Redirect the (/) Route to the (/admin) Or (/user/username) to view the Result or else click the Link from Home Page.
+
+# RedirectAndErrors
+
+The URL Redirects Using the "Redirect" Class From Flask based on the Method POST or GET.
+
+# ErrorWithAdmin
+
+The ErrorsWithAdmin is to Check Weather the User Enters the Username as the "Admin" then Sucess 
+Message will Show Otherwise the Default Route will Work.
+
+# BadRequestError
+
+The Error message will display when the User Enters the name with numbers it will Display the Following Error. (Error Code 400).
