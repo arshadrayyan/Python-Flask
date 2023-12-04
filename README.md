@@ -62,7 +62,7 @@ cd Dynamic Route
 we will learn how to handle HTTP methods, such as GET and POST in Flask using Python. Here, we will understand the concept of HTTP, GET, and HTTP POST, and then we will the example and implement each in Flask. Before starting let’s understand the basic terminology:
 
 
-PATCH: PATCH is similar to a PUT request, but the only difference is, it modifies a part of the data. It will only replace the content that you want to update.
+
 DELETE: A DELETE request is used to delete the data on the server at a specified location.
 
 # GET
