@@ -7,6 +7,7 @@
 - [Introduction](#Introduction)
 - [Hello World](#HelloWorld)
 - [Route](#Route)
+- [DynamicRoute](#DynamicRoute)
 
 # Introduction
 The Tutorial Describes the Basics of the Flask Framework in Python.It designed For Basic Flask Applications For Learning.
@@ -43,4 +44,13 @@ For Outcome follow the Steps mentioned Above, After the Below Directory.
 
 Navigate the Project Directory
 cd Route
+
+# DynamicRoute
+
+Dynamic Route is used to Route the Page and it's Information Based on the Specified User like (/user/<UserName>).
+
+For Outcome follow the Steps mentioned Above, After the Below Directory.
+
+Navigate the Project Directory
+cd Dynamic Route
 
