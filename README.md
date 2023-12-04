@@ -9,6 +9,7 @@
 - [HTTPMethods](#HTTPMethods)
 - [GET](#GET)
 - [POST](#POST)
+- [PUT](#PUT)
 
 
 # Introduction
