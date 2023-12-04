@@ -7,6 +7,7 @@
 - [Route](#Route)
 - [DynamicRoute](#DynamicRoute)
 - [HTTPMethods](#HTTPMethods)
+   -[GET](#GET)
 
 
 # Introduction
@@ -67,7 +68,7 @@ DELETE: A DELETE request is used to delete the data on the server at a specified
 
 To Request the Page Using GET Method in Python Flask.
 
-For Outcome follow the Steps mentioned Above, After the Below Directory.
+For Outcome follow the Steps After the Below Directory.
 
 Navigate the Project Directory
 cd HTTP Methods\GET
