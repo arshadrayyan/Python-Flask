@@ -21,6 +21,7 @@
 - [RedirectAndErrors](#RedirectAndErrors)
 - [ErrorWithAdmin](#ErrorWithAdmin)
 - [BadRequestError](#BadRequestError)
+- [Forbidden](#Forbidden)
 
 
 # Introduction
@@ -213,3 +214,7 @@ Message will Show Otherwise the Default Route will Work.
 # BadRequestError
 
 The Error message will display when the User Enters the name with numbers it will Display the Following Error. (Error Code 400).
+
+# Forbidden
+
+The Error message will display when the User Enters the name with numbers it will Display the Following Error. (Error Code 403).
