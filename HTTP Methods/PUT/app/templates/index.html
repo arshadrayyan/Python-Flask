@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask PUT Request Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .data-container {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        label {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flask PUT Request Example</h1>
+    
+    <div class="data-container">
+        <p><label>Name:</label>{{ data['name'] }}</p>
+        <p><label>Age:</label>{{ data['age'] }}</p>
+    </div>
+
+    <form id="updateForm" method="POST" action="/" onsubmit="updateData(); return false;">
+        <label for="nameInput">Name:</label>
+        <input type="text" id="nameInput" name="name" required>
+        <br>
+        <label for="ageInput">Age:</label>
+        <input type="number" id="ageInput" name="age" required>
+        <br>
+        <button type="submit">Update Data</button>
+    </form>
+
+    <script>
+        function updateData() {
+            const formData = {
+                name: document.getElementById('nameInput').value,
+                age: document.getElementById('ageInput').value
+            };
+
+            fetch('/', {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Handle the response if needed
+                console.log('Data updated:', data);
+                window.location.reload(); // Refresh the page after the update
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+        }
+    </script>
+</body>
+</html>
