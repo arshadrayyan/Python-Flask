@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Result</title>
+</head>
+<body>
+    <h1>Delete Result</h1>
+    <p>{{ status }}</p>
+    {% if deleted_item %}
+        <p>Deleted Item: {{ deleted_item.id }} - {{ deleted_item.name }}</p>
+    {% endif %}
+    <a href="{{ url_for('index') }}">Back to Items</a>
+</body>
+</html>
