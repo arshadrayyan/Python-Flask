@@ -8,7 +8,7 @@
 - [DynamicRoute](#DynamicRoute)
 
 # Introduction
-The Tutorial Describes the Basics of the Flask Framework in Python.It designed For Basic Flask Applications For Learning.
+The Tutorial Describes the Basics of the Flask Framework in Python. It designed Basic Flask Applications For Learning.
 
 # HelloWorld
 
