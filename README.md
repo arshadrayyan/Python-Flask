@@ -22,6 +22,7 @@
 - [ErrorWithAdmin](#ErrorWithAdmin)
 - [BadRequestError](#BadRequestError)
 - [Forbidden](#Forbidden)
+- [StaticFileUses](#StaticFileUses)
 
 
 # Introduction
@@ -218,3 +219,7 @@ The Error message will display when the User Enters the name with numbers it wil
 # Forbidden
 
 The Error message will display when the User Enters the name with numbers it will Display the Following Error. (Error Code 403).
+
+# StaticFileUses
+
+The Program contains the Static Folder in it's app directory to understand the JavaScript and CSS files how it is calling through the Flask Framework.
