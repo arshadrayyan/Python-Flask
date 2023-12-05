@@ -23,6 +23,7 @@
 - [BadRequestError](#BadRequestError)
 - [Forbidden](#Forbidden)
 - [StaticFileUses](#StaticFileUses)
+- [SendDataFromTemplate](#SendDataFromTemplate)
 
 
 # Introduction
@@ -223,3 +224,7 @@ The Error message will display when the User Enters the name with numbers it wil
 # StaticFileUses
 
 The Program contains the Static Folder in it's app directory to understand the JavaScript and CSS files how it is calling through the Flask Framework.
+
+# SendDataFromTemplate
+
+Send the data from the HTML Form data to Template in the Table Format.
