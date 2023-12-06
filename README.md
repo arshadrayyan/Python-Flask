@@ -25,6 +25,9 @@
 - [StaticFileUses](#StaticFileUses)
 - [SendDataFromTemplate](#SendDataFromTemplate)
 - [Cookies](#Cookies)
+- [PortAndIPAddress](#PortAndIPAddress)
+- [Port](#Port)
+- [IPAddress](#IPAddress)
 
 
 # Introduction
@@ -232,4 +235,18 @@ Send the data from the HTML Form data to Template in the Table Format.
 
 # Cookies
 
-the Cookies is used to add the Entered in the Fields to remember the user,Here we Described the Feature in the flask.
+The cookies are used to add the entries in the fields to remember the user. Here we describe the feature in the flask.
+
+# PortAndIPAddress
+
+To change the current local IP and port address to the system network IP
+To find the IP address running on your system, use the command below to get the IP address.
+ipconfig
+
+# Port
+
+The Port will be changed using the specified set of values in the Python function.
+
+# IPAddress
+
+The IP address will be changed using the specified set of values in the Python function.
