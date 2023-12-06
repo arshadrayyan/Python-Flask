@@ -24,6 +24,7 @@
 - [Forbidden](#Forbidden)
 - [StaticFileUses](#StaticFileUses)
 - [SendDataFromTemplate](#SendDataFromTemplate)
+- [Cookies](#Cookies)
 
 
 # Introduction
@@ -228,3 +229,7 @@ The Program contains the Static Folder in it's app directory to understand the J
 # SendDataFromTemplate
 
 Send the data from the HTML Form data to Template in the Table Format.
+
+# Cookies
+
+the Cookies is used to add the Entered in the Fields to remember the user,Here we Described the Feature in the flask.
